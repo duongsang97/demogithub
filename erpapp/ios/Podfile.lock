@@ -1,0 +1,658 @@
+PODS:
+  - app_links (0.0.1):
+    - Flutter
+  - audio_session (0.0.1):
+    - Flutter
+  - audioplayers_darwin (0.0.1):
+    - Flutter
+  - camera_avfoundation (0.0.1):
+    - Flutter
+  - connectivity (0.0.1):
+    - Flutter
+    - Reachability
+  - device_info (0.0.1):
+    - Flutter
+  - device_info_plus (0.0.1):
+    - Flutter
+  - DKImagePickerController/Core (4.3.4):
+    - DKImagePickerController/ImageDataManager
+    - DKImagePickerController/Resource
+  - DKImagePickerController/ImageDataManager (4.3.4)
+  - DKImagePickerController/PhotoGallery (4.3.4):
+    - DKImagePickerController/Core
+    - DKPhotoGallery
+  - DKImagePickerController/Resource (4.3.4)
+  - DKPhotoGallery (0.0.17):
+    - DKPhotoGallery/Core (= 0.0.17)
+    - DKPhotoGallery/Model (= 0.0.17)
+    - DKPhotoGallery/Preview (= 0.0.17)
+    - DKPhotoGallery/Resource (= 0.0.17)
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Core (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Model (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Preview (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Resource (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - file_picker (0.0.1):
+    - DKImagePickerController/PhotoGallery
+    - Flutter
+  - file_saver (0.0.1):
+    - Flutter
+  - Firebase/CoreOnly (10.15.0):
+    - FirebaseCore (= 10.15.0)
+  - Firebase/Crashlytics (10.15.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 10.15.0)
+  - Firebase/Messaging (10.15.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 10.15.0)
+  - Firebase/Performance (10.15.0):
+    - Firebase/CoreOnly
+    - FirebasePerformance (~> 10.15.0)
+  - firebase_core (2.17.0):
+    - Firebase/CoreOnly (= 10.15.0)
+    - Flutter
+  - firebase_crashlytics (3.2.0):
+    - Firebase/Crashlytics (= 10.15.0)
+    - firebase_core
+    - Flutter
+  - firebase_messaging (14.6.9):
+    - Firebase/Messaging (= 10.15.0)
+    - firebase_core
+    - Flutter
+  - firebase_performance (0.9.0-15):
+    - Firebase/Performance (= 10.15.0)
+    - firebase_core
+    - Flutter
+  - FirebaseABTesting (10.21.0):
+    - FirebaseCore (~> 10.0)
+  - FirebaseCore (10.15.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Logger (~> 7.8)
+  - FirebaseCoreExtension (10.21.0):
+    - FirebaseCore (~> 10.0)
+  - FirebaseCoreInternal (10.21.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseCrashlytics (10.15.0):
+    - FirebaseCore (~> 10.5)
+    - FirebaseInstallations (~> 10.0)
+    - FirebaseSessions (~> 10.5)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/Environment (~> 7.8)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (~> 2.1)
+  - FirebaseInstallations (10.21.0):
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - PromisesObjC (~> 2.1)
+  - FirebaseMessaging (10.15.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Reachability (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebasePerformance (10.15.0):
+    - FirebaseCore (~> 10.5)
+    - FirebaseInstallations (~> 10.0)
+    - FirebaseRemoteConfig (~> 10.0)
+    - FirebaseSessions (~> 10.5)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/ISASwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseRemoteConfig (10.21.0):
+    - FirebaseABTesting (~> 10.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - FirebaseSharedSwift (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseSessions (10.21.0):
+    - FirebaseCore (~> 10.5)
+    - FirebaseCoreExtension (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/Environment (~> 7.10)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesSwift (~> 2.1)
+  - FirebaseSharedSwift (10.21.0)
+  - Flutter (1.0.0)
+  - flutter_app_badger (1.3.0):
+    - Flutter
+  - flutter_email_sender (0.0.1):
+    - Flutter
+  - flutter_image_compress (1.0.0):
+    - Flutter
+    - Mantle
+    - SDWebImage
+    - SDWebImageWebPCoder
+  - flutter_inappwebview_ios (0.0.1):
+    - Flutter
+    - flutter_inappwebview_ios/Core (= 0.0.1)
+    - OrderedSet (~> 5.0)
+  - flutter_inappwebview_ios/Core (0.0.1):
+    - Flutter
+    - OrderedSet (~> 5.0)
+  - flutter_jailbreak_detection (1.0.0):
+    - Flutter
+    - IOSSecuritySuite
+  - flutter_js (0.1.0):
+    - Flutter
+  - flutter_local_notifications (0.0.1):
+    - Flutter
+  - flutter_native_timezone (0.0.1):
+    - Flutter
+  - flutter_pdfview (1.0.2):
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - geolocator_apple (1.2.0):
+    - Flutter
+  - google_maps_flutter_ios (0.0.1):
+    - Flutter
+    - GoogleMaps (< 9.0)
+  - google_mlkit_commons (0.6.1):
+    - Flutter
+    - MLKitVision
+  - google_mlkit_face_detection (0.9.0):
+    - Flutter
+    - google_mlkit_commons
+    - GoogleMLKit/FaceDetection (~> 4.0.0)
+  - google_mlkit_text_recognition (0.11.0):
+    - Flutter
+    - google_mlkit_commons
+    - GoogleMLKit/TextRecognition (~> 4.0.0)
+  - GoogleDataTransport (9.3.0):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMaps (6.2.1):
+    - GoogleMaps/Maps (= 6.2.1)
+  - GoogleMaps/Base (6.2.1)
+  - GoogleMaps/Maps (6.2.1):
+    - GoogleMaps/Base
+  - GoogleMLKit/BarcodeScanning (4.0.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitBarcodeScanning (~> 3.0.0)
+  - GoogleMLKit/FaceDetection (4.0.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitFaceDetection (~> 3.0.0)
+  - GoogleMLKit/MLKitCore (4.0.0):
+    - MLKitCommon (~> 9.0.0)
+  - GoogleMLKit/TextRecognition (4.0.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitTextRecognition (~> 2.0.0)
+  - GoogleToolboxForMac/DebugUtils (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - GoogleToolboxForMac/Defines (2.3.2)
+  - GoogleToolboxForMac/Logger (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.3.2)":
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.3.2)":
+    - GoogleToolboxForMac/DebugUtils (= 2.3.2)
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.3.2)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.3.2)"
+  - GoogleUtilities/AppDelegateSwizzler (7.12.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.12.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/ISASwizzler (7.12.0)
+  - GoogleUtilities/Logger (7.12.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.12.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.12.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.12.0)"
+  - GoogleUtilities/Reachability (7.12.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.12.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilitiesComponents (1.1.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (2.3.0)
+  - image_gallery_saver (1.5.0):
+    - Flutter
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - IOSSecuritySuite (1.9.11)
+  - just_audio (0.0.1):
+    - Flutter
+  - libwebp (1.3.2):
+    - libwebp/demux (= 1.3.2)
+    - libwebp/mux (= 1.3.2)
+    - libwebp/sharpyuv (= 1.3.2)
+    - libwebp/webp (= 1.3.2)
+  - libwebp/demux (1.3.2):
+    - libwebp/webp
+  - libwebp/mux (1.3.2):
+    - libwebp/demux
+  - libwebp/sharpyuv (1.3.2)
+  - libwebp/webp (1.3.2):
+    - libwebp/sharpyuv
+  - local_auth_ios (0.0.1):
+    - Flutter
+  - Mantle (2.2.0):
+    - Mantle/extobjc (= 2.2.0)
+  - Mantle/extobjc (2.2.0)
+  - MLImage (1.0.0-beta4)
+  - MLKitBarcodeScanning (3.0.0):
+    - MLKitCommon (~> 9.0)
+    - MLKitVision (~> 5.0)
+  - MLKitCommon (9.0.0):
+    - GoogleDataTransport (~> 9.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GoogleUtilities/UserDefaults (~> 7.0)
+    - GoogleUtilitiesComponents (~> 1.0)
+    - GTMSessionFetcher/Core (< 3.0, >= 1.1)
+  - MLKitFaceDetection (3.0.0):
+    - MLKitCommon (~> 9.0)
+    - MLKitVision (~> 5.0)
+  - MLKitTextRecognition (2.0.0):
+    - MLKitCommon (~> 9.0)
+    - MLKitTextRecognitionCommon (= 1.0.0)
+    - MLKitVision (~> 5.0)
+  - MLKitTextRecognitionCommon (1.0.0):
+    - MLKitCommon (~> 9.0)
+    - MLKitVision (~> 5.0)
+  - MLKitVision (5.0.0):
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GTMSessionFetcher/Core (< 3.0, >= 1.1)
+    - MLImage (= 1.0.0-beta4)
+    - MLKitCommon (~> 9.0)
+  - mobile_scanner (3.5.5):
+    - Flutter
+    - GoogleMLKit/BarcodeScanning (~> 4.0.0)
+  - nanopb (2.30909.1):
+    - nanopb/decode (= 2.30909.1)
+    - nanopb/encode (= 2.30909.1)
+  - nanopb/decode (2.30909.1)
+  - nanopb/encode (2.30909.1)
+  - OrderedSet (5.0.0)
+  - package_info (0.0.1):
+    - Flutter
+  - package_info_plus (0.4.5):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - pdf_render (0.0.1):
+    - Flutter
+  - perfect_volume_control (0.0.1):
+    - Flutter
+  - permission_handler_apple (9.1.1):
+    - Flutter
+  - PromisesObjC (2.4.0)
+  - PromisesSwift (2.4.0):
+    - PromisesObjC (= 2.4.0)
+  - Reachability (3.2)
+  - record (0.0.1):
+    - Flutter
+  - rive_common (0.0.1):
+    - Flutter
+  - SDWebImage (5.19.0):
+    - SDWebImage/Core (= 5.19.0)
+  - SDWebImage/Core (5.19.0)
+  - SDWebImageWebPCoder (0.14.5):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.17)
+  - share_plus (0.0.1):
+    - Flutter
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - SwiftyGif (5.4.4)
+  - Toast (4.1.0)
+  - uni_links (0.0.1):
+    - Flutter
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - wakelock (0.0.1):
+    - Flutter
+  - wakelock_plus (0.0.1):
+    - Flutter
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+  - workmanager (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - app_links (from `.symlinks/plugins/app_links/ios`)
+  - audio_session (from `.symlinks/plugins/audio_session/ios`)
+  - audioplayers_darwin (from `.symlinks/plugins/audioplayers_darwin/ios`)
+  - camera_avfoundation (from `.symlinks/plugins/camera_avfoundation/ios`)
+  - connectivity (from `.symlinks/plugins/connectivity/ios`)
+  - device_info (from `.symlinks/plugins/device_info/ios`)
+  - device_info_plus (from `.symlinks/plugins/device_info_plus/ios`)
+  - file_picker (from `.symlinks/plugins/file_picker/ios`)
+  - file_saver (from `.symlinks/plugins/file_saver/ios`)
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - firebase_crashlytics (from `.symlinks/plugins/firebase_crashlytics/ios`)
+  - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
+  - firebase_performance (from `.symlinks/plugins/firebase_performance/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_app_badger (from `.symlinks/plugins/flutter_app_badger/ios`)
+  - flutter_email_sender (from `.symlinks/plugins/flutter_email_sender/ios`)
+  - flutter_image_compress (from `.symlinks/plugins/flutter_image_compress/ios`)
+  - flutter_inappwebview_ios (from `.symlinks/plugins/flutter_inappwebview_ios/ios`)
+  - flutter_jailbreak_detection (from `.symlinks/plugins/flutter_jailbreak_detection/ios`)
+  - flutter_js (from `.symlinks/plugins/flutter_js/ios`)
+  - flutter_local_notifications (from `.symlinks/plugins/flutter_local_notifications/ios`)
+  - flutter_native_timezone (from `.symlinks/plugins/flutter_native_timezone/ios`)
+  - flutter_pdfview (from `.symlinks/plugins/flutter_pdfview/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - geolocator_apple (from `.symlinks/plugins/geolocator_apple/ios`)
+  - google_maps_flutter_ios (from `.symlinks/plugins/google_maps_flutter_ios/ios`)
+  - google_mlkit_commons (from `.symlinks/plugins/google_mlkit_commons/ios`)
+  - google_mlkit_face_detection (from `.symlinks/plugins/google_mlkit_face_detection/ios`)
+  - google_mlkit_text_recognition (from `.symlinks/plugins/google_mlkit_text_recognition/ios`)
+  - image_gallery_saver (from `.symlinks/plugins/image_gallery_saver/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - IOSSecuritySuite
+  - just_audio (from `.symlinks/plugins/just_audio/ios`)
+  - local_auth_ios (from `.symlinks/plugins/local_auth_ios/ios`)
+  - mobile_scanner (from `.symlinks/plugins/mobile_scanner/ios`)
+  - package_info (from `.symlinks/plugins/package_info/ios`)
+  - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - pdf_render (from `.symlinks/plugins/pdf_render/ios`)
+  - perfect_volume_control (from `.symlinks/plugins/perfect_volume_control/ios`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - record (from `.symlinks/plugins/record/ios`)
+  - rive_common (from `.symlinks/plugins/rive_common/ios`)
+  - share_plus (from `.symlinks/plugins/share_plus/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - uni_links (from `.symlinks/plugins/uni_links/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/darwin`)
+  - wakelock (from `.symlinks/plugins/wakelock/ios`)
+  - wakelock_plus (from `.symlinks/plugins/wakelock_plus/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
+  - workmanager (from `.symlinks/plugins/workmanager/ios`)
+
+SPEC REPOS:
+  trunk:
+    - DKImagePickerController
+    - DKPhotoGallery
+    - Firebase
+    - FirebaseABTesting
+    - FirebaseCore
+    - FirebaseCoreExtension
+    - FirebaseCoreInternal
+    - FirebaseCrashlytics
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - FirebasePerformance
+    - FirebaseRemoteConfig
+    - FirebaseSessions
+    - FirebaseSharedSwift
+    - FMDB
+    - GoogleDataTransport
+    - GoogleMaps
+    - GoogleMLKit
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GoogleUtilitiesComponents
+    - GTMSessionFetcher
+    - IOSSecuritySuite
+    - libwebp
+    - Mantle
+    - MLImage
+    - MLKitBarcodeScanning
+    - MLKitCommon
+    - MLKitFaceDetection
+    - MLKitTextRecognition
+    - MLKitTextRecognitionCommon
+    - MLKitVision
+    - nanopb
+    - OrderedSet
+    - PromisesObjC
+    - PromisesSwift
+    - Reachability
+    - SDWebImage
+    - SDWebImageWebPCoder
+    - SwiftyGif
+    - Toast
+
+EXTERNAL SOURCES:
+  app_links:
+    :path: ".symlinks/plugins/app_links/ios"
+  audio_session:
+    :path: ".symlinks/plugins/audio_session/ios"
+  audioplayers_darwin:
+    :path: ".symlinks/plugins/audioplayers_darwin/ios"
+  camera_avfoundation:
+    :path: ".symlinks/plugins/camera_avfoundation/ios"
+  connectivity:
+    :path: ".symlinks/plugins/connectivity/ios"
+  device_info:
+    :path: ".symlinks/plugins/device_info/ios"
+  device_info_plus:
+    :path: ".symlinks/plugins/device_info_plus/ios"
+  file_picker:
+    :path: ".symlinks/plugins/file_picker/ios"
+  file_saver:
+    :path: ".symlinks/plugins/file_saver/ios"
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  firebase_crashlytics:
+    :path: ".symlinks/plugins/firebase_crashlytics/ios"
+  firebase_messaging:
+    :path: ".symlinks/plugins/firebase_messaging/ios"
+  firebase_performance:
+    :path: ".symlinks/plugins/firebase_performance/ios"
+  Flutter:
+    :path: Flutter
+  flutter_app_badger:
+    :path: ".symlinks/plugins/flutter_app_badger/ios"
+  flutter_email_sender:
+    :path: ".symlinks/plugins/flutter_email_sender/ios"
+  flutter_image_compress:
+    :path: ".symlinks/plugins/flutter_image_compress/ios"
+  flutter_inappwebview_ios:
+    :path: ".symlinks/plugins/flutter_inappwebview_ios/ios"
+  flutter_jailbreak_detection:
+    :path: ".symlinks/plugins/flutter_jailbreak_detection/ios"
+  flutter_js:
+    :path: ".symlinks/plugins/flutter_js/ios"
+  flutter_local_notifications:
+    :path: ".symlinks/plugins/flutter_local_notifications/ios"
+  flutter_native_timezone:
+    :path: ".symlinks/plugins/flutter_native_timezone/ios"
+  flutter_pdfview:
+    :path: ".symlinks/plugins/flutter_pdfview/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  geolocator_apple:
+    :path: ".symlinks/plugins/geolocator_apple/ios"
+  google_maps_flutter_ios:
+    :path: ".symlinks/plugins/google_maps_flutter_ios/ios"
+  google_mlkit_commons:
+    :path: ".symlinks/plugins/google_mlkit_commons/ios"
+  google_mlkit_face_detection:
+    :path: ".symlinks/plugins/google_mlkit_face_detection/ios"
+  google_mlkit_text_recognition:
+    :path: ".symlinks/plugins/google_mlkit_text_recognition/ios"
+  image_gallery_saver:
+    :path: ".symlinks/plugins/image_gallery_saver/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  just_audio:
+    :path: ".symlinks/plugins/just_audio/ios"
+  local_auth_ios:
+    :path: ".symlinks/plugins/local_auth_ios/ios"
+  mobile_scanner:
+    :path: ".symlinks/plugins/mobile_scanner/ios"
+  package_info:
+    :path: ".symlinks/plugins/package_info/ios"
+  package_info_plus:
+    :path: ".symlinks/plugins/package_info_plus/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  pdf_render:
+    :path: ".symlinks/plugins/pdf_render/ios"
+  perfect_volume_control:
+    :path: ".symlinks/plugins/perfect_volume_control/ios"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  record:
+    :path: ".symlinks/plugins/record/ios"
+  rive_common:
+    :path: ".symlinks/plugins/rive_common/ios"
+  share_plus:
+    :path: ".symlinks/plugins/share_plus/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  uni_links:
+    :path: ".symlinks/plugins/uni_links/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/darwin"
+  wakelock:
+    :path: ".symlinks/plugins/wakelock/ios"
+  wakelock_plus:
+    :path: ".symlinks/plugins/wakelock_plus/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
+  workmanager:
+    :path: ".symlinks/plugins/workmanager/ios"
+
+SPEC CHECKSUMS:
+  app_links: 5ef33d0d295a89d9d16bb81b0e3b0d5f70d6c875
+  audio_session: 4f3e461722055d21515cf3261b64c973c062f345
+  audioplayers_darwin: 877d9a4d06331c5c374595e46e16453ac7eafa40
+  camera_avfoundation: 3125e8cd1a4387f6f31c6c63abb8a55892a9eeeb
+  connectivity: c4130b2985d4ef6fd26f9702e886bd5260681467
+  device_info: d7d233b645a32c40dfdc212de5cf646ca482f175
+  device_info_plus: c6fb39579d0f423935b0c9ce7ee2f44b71b9fce6
+  DKImagePickerController: b512c28220a2b8ac7419f21c491fc8534b7601ac
+  DKPhotoGallery: fdfad5125a9fdda9cc57df834d49df790dbb4179
+  file_picker: ce3938a0df3cc1ef404671531facef740d03f920
+  file_saver: 503e386464dbe118f630e17b4c2e1190fa0cf808
+  Firebase: 66043bd4579e5b73811f96829c694c7af8d67435
+  firebase_core: 28e84c2a4fcf6a50ef83f47b145ded8c1fa331e4
+  firebase_crashlytics: aece0cc846d30b3536c74972b74e3926325b043b
+  firebase_messaging: 91ec967913a5d144f951b3c3ac17a57796d38735
+  firebase_performance: af2f979c8ef59f2af7fec285b76095607635cd9a
+  FirebaseABTesting: 40774deef367dcc7b736b6c26dd59ce0fab42f41
+  FirebaseCore: 2cec518b43635f96afe7ac3a9c513e47558abd2e
+  FirebaseCoreExtension: 1c044fd46e95036cccb29134757c499613f3f564
+  FirebaseCoreInternal: 43c1788eaeee9d1b97caaa751af567ce11010d00
+  FirebaseCrashlytics: a83f26fb922a3fe181eb738fb4dcf0c92bba6455
+  FirebaseInstallations: 390ea1d10a4d02b20c965cbfd527ee9b3b412acb
+  FirebaseMessaging: 0c0ae1eb722ef0c07f7801e5ded8dccd1357d6d4
+  FirebasePerformance: b7988bc06c87e9c3b9e6b1ae854cd460b646ebd6
+  FirebaseRemoteConfig: 1dd5164b2183aff07c7726df6b0212ad5154c1fe
+  FirebaseSessions: 80c2bbdd28166267b3d132debe5f7531efdb00bc
+  FirebaseSharedSwift: 19b3f709993d6fa1d84941d41c01e3c4c11eab93
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_app_badger: b87fc231847b03b92ce1412aa351842e7e97932f
+  flutter_email_sender: 02d7443217d8c41483223627972bfdc09f74276b
+  flutter_image_compress: 5a5e9aee05b6553048b8df1c3bc456d0afaac433
+  flutter_inappwebview_ios: 97215cf7d4677db55df76782dbd2930c5e1c1ea0
+  flutter_jailbreak_detection: c5bf66ff6c0c4230769b6ba0bd63eb6ac4148a76
+  flutter_js: 95929d4e146e8ceb1c8e1889d8c2065c5d840076
+  flutter_local_notifications: 0c0b1ae97e741e1521e4c1629a459d04b9aec743
+  flutter_native_timezone: 5f05b2de06c9776b4cc70e1839f03de178394d22
+  flutter_pdfview: 25f53dd6097661e6395b17de506e6060585946bd
+  fluttertoast: 48c57db1b71b0ce9e6bba9f31c940ff4b001293c
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  geolocator_apple: cc556e6844d508c95df1e87e3ea6fa4e58c50401
+  google_maps_flutter_ios: d1318b4ff711612cab16862d7a87e31a7403d458
+  google_mlkit_commons: 3857c1e9f23ca02073f8dd34a7a3580feb814cef
+  google_mlkit_face_detection: 52f7e4c15a7c49b98940fa32af4c2b10fd8608fc
+  google_mlkit_text_recognition: 9225b4bf1b176dd18b05c9594e5347834e793440
+  GoogleDataTransport: 57c22343ab29bc686febbf7cbb13bad167c2d8fe
+  GoogleMaps: 20d7b12be49a14287f797e88e0e31bc4156aaeb4
+  GoogleMLKit: 2bd0dc6253c4d4f227aad460f69215a504b2980e
+  GoogleToolboxForMac: 8bef7c7c5cf7291c687cf5354f39f9db6399ad34
+  GoogleUtilities: 0759d1a57ebb953965c2dfe0ba4c82e95ccc2e34
+  GoogleUtilitiesComponents: 679b2c881db3b615a2777504623df6122dd20afe
+  GTMSessionFetcher: 3a63d75eecd6aa32c2fc79f578064e1214dfdec2
+  image_gallery_saver: 259eab68fb271cfd57d599904f7acdc7832e7ef2
+  image_picker_ios: 58b9c4269cb176f89acea5e5d043c9358f2d25f8
+  IOSSecuritySuite: b51056d5411aee567153ca86ce7f6edfdc5d2654
+  just_audio: baa7252489dbcf47a4c7cc9ca663e9661c99aafa
+  libwebp: 1786c9f4ff8a279e4dac1e8f385004d5fc253009
+  local_auth_ios: ceb207b594b48c075f1065f97b61e3ffa00d686b
+  Mantle: c5aa8794a29a022dfbbfc9799af95f477a69b62d
+  MLImage: 7bb7c4264164ade9bf64f679b40fb29c8f33ee9b
+  MLKitBarcodeScanning: 04e264482c5f3810cb89ebc134ef6b61e67db505
+  MLKitCommon: c1b791c3e667091918d91bda4bba69a91011e390
+  MLKitFaceDetection: 4981488f71ea8ed718cda692a29ab562637d9ae5
+  MLKitTextRecognition: 9ff0c843f2723d31d4bdd0c0d17a0a18382ed23e
+  MLKitTextRecognitionCommon: 0d48930fee25cce9d52d0ba217490d4797061aa2
+  MLKitVision: 8baa5f46ee3352614169b85250574fde38c36f49
+  mobile_scanner: 202ab6f652e40a9add68b10de4c4fb2a745c4348
+  nanopb: d4d75c12cd1316f4a64e3c6963f879ecd4b5e0d5
+  OrderedSet: aaeb196f7fef5a9edf55d89760da9176ad40b93c
+  package_info: 873975fc26034f0b863a300ad47e7f1ac6c7ec62
+  package_info_plus: 115f4ad11e0698c8c1c5d8a689390df880f47e85
+  path_provider_foundation: c68054786f1b4f3343858c1e1d0caaded73f0be9
+  pdf_render: 0b4e1a615aab83ce88b26c57753049424908a755
+  perfect_volume_control: 79b165ecd79d6ee20e60bf15534de61ebf3bb5f3
+  permission_handler_apple: e76247795d700c14ea09e3a2d8855d41ee80a2e6
+  PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
+  PromisesSwift: 9d77319bbe72ebf6d872900551f7eeba9bce2851
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  record: cae05d8dd3cdb1dea3511b20e5a5811a1ae00d0d
+  rive_common: 8a159d68033a8b073e5853acc50f03aa486a2888
+  SDWebImage: 981fd7e860af070920f249fd092420006014c3eb
+  SDWebImageWebPCoder: c94f09adbca681822edad9e532ac752db713eabf
+  share_plus: c3fef564749587fc939ef86ffb283ceac0baf9f5
+  shared_preferences_foundation: 986fc17f3d3251412d18b0265f9c64113a8c2472
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
+  SwiftyGif: 93a1cc87bf3a51916001cf8f3d63835fb64c819f
+  Toast: ec33c32b8688982cecc6348adeae667c1b9938da
+  uni_links: d97da20c7701486ba192624d99bffaaffcfc298a
+  url_launcher_ios: 08a3dfac5fb39e8759aeb0abbd5d9480f30fc8b4
+  video_player_avfoundation: 02011213dab73ae3687df27ce441fbbcc82b5579
+  wakelock: b0843b2479edbf6504d8d262c2959446f35373aa
+  wakelock_plus: 8b09852c8876491e4b6d179e17dfe2a0b5f60d47
+  webview_flutter_wkwebview: 4f3e50f7273d31e5500066ed267e3ae4309c5ae4
+  workmanager: 0afdcf5628bbde6924c21af7836fed07b42e30e6
+
+PODFILE CHECKSUM: ae0bf497af974b5c69dd8e0bf67617529ac2aa49
+
+COCOAPODS: 1.15.2

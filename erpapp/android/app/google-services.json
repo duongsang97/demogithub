@@ -1,0 +1,424 @@
+{
+  "project_info": {
+    "project_number": "985024137205",
+    "project_id": "acacy-prol",
+    "storage_bucket": "acacy-prol.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985024137205:android:a13f20d32e536c02bf82bc",
+        "android_client_info": {
+          "package_name": "acacy.mobile.ushop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985024137205-t34dmu9v81pan473oac4ll442odli06o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "acacy.mobile.ushop",
+            "certificate_hash": "bae372e89162792885ae1d1573e85efe1c2c5fb9"
+          }
+        },
+        {
+          "client_id": "985024137205-kqaot4kj6cqbrm7tpk7oifh7qd94t44k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBktUU2daQemPb5Udq9Z_PY4H68ij0RGPU"
+        },
+        {
+          "current_key": "AIzaSyBJIERf9V5q7n0DQg4oQJ0JFGMI_hWucn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985024137205-kqaot4kj6cqbrm7tpk7oifh7qd94t44k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "985024137205-1ss7h8oq7bfdjcnlgobukbd0aipk09ov.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.acacy.erp.mars"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985024137205:android:a73b913c4cddc78abf82bc",
+        "android_client_info": {
+          "package_name": "com.acacy.acatrainingss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985024137205-kqaot4kj6cqbrm7tpk7oifh7qd94t44k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBktUU2daQemPb5Udq9Z_PY4H68ij0RGPU"
+        },
+        {
+          "current_key": "AIzaSyBJIERf9V5q7n0DQg4oQJ0JFGMI_hWucn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985024137205-kqaot4kj6cqbrm7tpk7oifh7qd94t44k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "985024137205-1ss7h8oq7bfdjcnlgobukbd0aipk09ov.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.acacy.erp.mars"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985024137205:android:46b1cec3f61f2bdfbf82bc",
+        "android_client_info": {
+          "package_name": "com.acacy.erp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985024137205-kqaot4kj6cqbrm7tpk7oifh7qd94t44k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBktUU2daQemPb5Udq9Z_PY4H68ij0RGPU"
+        },
+        {
+          "current_key": "AIzaSyBJIERf9V5q7n0DQg4oQJ0JFGMI_hWucn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985024137205-kqaot4kj6cqbrm7tpk7oifh7qd94t44k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "985024137205-1ss7h8oq7bfdjcnlgobukbd0aipk09ov.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.acacy.erp.mars"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985024137205:android:f81fc36560e226d4bf82bc",
+        "android_client_info": {
+          "package_name": "com.acacy.erp.abbott"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985024137205-kqaot4kj6cqbrm7tpk7oifh7qd94t44k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBktUU2daQemPb5Udq9Z_PY4H68ij0RGPU"
+        },
+        {
+          "current_key": "AIzaSyBJIERf9V5q7n0DQg4oQJ0JFGMI_hWucn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985024137205-kqaot4kj6cqbrm7tpk7oifh7qd94t44k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "985024137205-1ss7h8oq7bfdjcnlgobukbd0aipk09ov.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.acacy.erp.mars"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985024137205:android:354f7b0ee5448baabf82bc",
+        "android_client_info": {
+          "package_name": "com.acacy.erp.heineken"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985024137205-kqaot4kj6cqbrm7tpk7oifh7qd94t44k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBktUU2daQemPb5Udq9Z_PY4H68ij0RGPU"
+        },
+        {
+          "current_key": "AIzaSyBJIERf9V5q7n0DQg4oQJ0JFGMI_hWucn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985024137205-kqaot4kj6cqbrm7tpk7oifh7qd94t44k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "985024137205-1ss7h8oq7bfdjcnlgobukbd0aipk09ov.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.acacy.erp.mars"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985024137205:android:23b51b867410b3dbbf82bc",
+        "android_client_info": {
+          "package_name": "com.acacy.erp.mars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985024137205-kqaot4kj6cqbrm7tpk7oifh7qd94t44k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBktUU2daQemPb5Udq9Z_PY4H68ij0RGPU"
+        },
+        {
+          "current_key": "AIzaSyBJIERf9V5q7n0DQg4oQJ0JFGMI_hWucn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985024137205-kqaot4kj6cqbrm7tpk7oifh7qd94t44k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "985024137205-1ss7h8oq7bfdjcnlgobukbd0aipk09ov.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.acacy.erp.mars"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985024137205:android:335bf07dde764fa1bf82bc",
+        "android_client_info": {
+          "package_name": "com.acacy.erp.pepsi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985024137205-kqaot4kj6cqbrm7tpk7oifh7qd94t44k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBktUU2daQemPb5Udq9Z_PY4H68ij0RGPU"
+        },
+        {
+          "current_key": "AIzaSyBJIERf9V5q7n0DQg4oQJ0JFGMI_hWucn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985024137205-kqaot4kj6cqbrm7tpk7oifh7qd94t44k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "985024137205-1ss7h8oq7bfdjcnlgobukbd0aipk09ov.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.acacy.erp.mars"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985024137205:android:83b99a73e6d98cb2bf82bc",
+        "android_client_info": {
+          "package_name": "com.acacy.recruitment102"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985024137205-kqaot4kj6cqbrm7tpk7oifh7qd94t44k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBktUU2daQemPb5Udq9Z_PY4H68ij0RGPU"
+        },
+        {
+          "current_key": "AIzaSyBJIERf9V5q7n0DQg4oQJ0JFGMI_hWucn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985024137205-kqaot4kj6cqbrm7tpk7oifh7qd94t44k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "985024137205-1ss7h8oq7bfdjcnlgobukbd0aipk09ov.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.acacy.erp.mars"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985024137205:android:37cecdf027e79251bf82bc",
+        "android_client_info": {
+          "package_name": "vn.com.acacy.nutifoodfieldforce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985024137205-20fa0amjp2lpr2svgoldd9ap85f5pu1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.com.acacy.nutifoodfieldforce",
+            "certificate_hash": "bae372e89162792885ae1d1573e85efe1c2c5fb9"
+          }
+        },
+        {
+          "client_id": "985024137205-kqaot4kj6cqbrm7tpk7oifh7qd94t44k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBktUU2daQemPb5Udq9Z_PY4H68ij0RGPU"
+        },
+        {
+          "current_key": "AIzaSyBJIERf9V5q7n0DQg4oQJ0JFGMI_hWucn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985024137205-kqaot4kj6cqbrm7tpk7oifh7qd94t44k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "985024137205-1ss7h8oq7bfdjcnlgobukbd0aipk09ov.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.acacy.erp.mars"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985024137205:android:aec08c6128145fa0bf82bc",
+        "android_client_info": {
+          "package_name": "vn.com.acacy.tefalvietnamproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985024137205-c21is9o08u423cj0rnr1pdnobesgr2k6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.com.acacy.tefalvietnamproject",
+            "certificate_hash": "bae372e89162792885ae1d1573e85efe1c2c5fb9"
+          }
+        },
+        {
+          "client_id": "985024137205-kqaot4kj6cqbrm7tpk7oifh7qd94t44k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBktUU2daQemPb5Udq9Z_PY4H68ij0RGPU"
+        },
+        {
+          "current_key": "AIzaSyBJIERf9V5q7n0DQg4oQJ0JFGMI_hWucn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985024137205-kqaot4kj6cqbrm7tpk7oifh7qd94t44k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "985024137205-1ss7h8oq7bfdjcnlgobukbd0aipk09ov.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.acacy.erp.mars"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

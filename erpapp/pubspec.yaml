@@ -1,0 +1,79 @@
+name: erp
+description: App Supper ERP 
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  erpcore:
+    path: ../erppackage/erpcore
+  activation:
+    path: ../erppackage/activation
+  warehouse:
+    path: ../erppackage/warehouse
+  attendancemng:
+    path: ../erppackage/attendancemng
+  labourtracking:
+    path: ../erppackage/labourtracking
+  md5s:
+    path: ../erppackage/md5s
+  projectcoststatistical:
+    path: ../erppackage/projectcoststatistical
+  empscanner:
+    path: ../erppackage/empscanner
+  payslip:
+    path: ../erppackage/payslip
+  esignature:
+    path: ../erppackage/esignature
+  powerbi:
+    path: ../erppackage/powerbi
+  taskmng:
+    path: ../erppackage/taskmng
+  booking:
+    path: ../erppackage/booking
+  complain:
+    path: ../erppackage/complain
+  themedia:
+    path: ../erppackage/themedia
+# dev_dependencies:
+
+  flutter_lints: ^3.0.1
+  flutter_test:
+    sdk: flutter
+  
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter
+flutter:
+  assets:
+    - assets/fonts/
+    - assets/rive/
+    - assets/illustrations/
+    - assets/images/
+    - assets/images/logos/
+    - assets/images/background/
+    - assets/images/icons/
+    - assets/images/icons/light/
+    - assets/images/icons/bold/
+    - assets/images/icons/functions/
+    - assets/images/vector/
+    - shorebird.yaml
+
+  fonts:
+    - family: PlayfairDisplay
+      fonts:
+        - asset: assets/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf
+        - asset: assets/fonts/Playfair_Display/PlayfairDisplay-Bold.ttf
+        - asset: assets/fonts/Playfair_Display/PlayfairDisplay-Italic.ttf
+
+  uses-material-design: true
+
+  

@@ -1,0 +1,54 @@
+{
+	"folders": [
+		{
+			"name": "erpapp",
+			"path": "../../../../erpapp"
+		},
+		{
+			"name": "attendancemng",
+			"path": "../../../attendancemng"
+		},
+		{
+			"name": "activation",
+			"path": "../../../activation"
+		},
+		{
+			"name": "erpcore",
+			"path": "../.."
+		},
+		{
+			"name": "mdctv",
+			"path": "../../../mdctv"
+		},
+		{
+			"name": "warehouse",
+			"path": "../../../warehouse"
+		},
+		{
+			"name": "esignature",
+			"path": "../../../esignature"
+		},
+		{
+			"name": "empscanner",
+			"path": "../../../empscanner"
+		},
+		{
+			"path": "../../../md5s"
+		},
+		{
+			"path": "../../../projectcoststatistical"
+		},
+		{
+			"path": "../../../taskmng"
+		},
+		{
+			"path": "../../../payslip"
+		},
+		{
+			"path": "../../../labourtracking"
+		},
+		{
+			"path": "../../../powerbi"
+		}
+	]
+}

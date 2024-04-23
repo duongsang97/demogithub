@@ -1,0 +1,162 @@
+import 'package:erpcore/models/apps/PrDate.Model.dart';
+import 'package:erpcore/models/apps/prCodeName.Model.dart';
+
+class MyTaskModel {
+  String? sysCode;
+  PrCodeName? customer;
+  PrCodeName? project;
+  PrCodeName? mainTask;
+  String? code;
+  String? name;
+  String? description;
+  PrCodeName? assign;
+  var parent;
+  List? folow = [];
+  PrCodeName? taskStatus;
+  String? sStartDate;
+  String? sDueDate;
+  var sEndDate;
+  List? attachments = [];
+  var forward;
+  List? employeeGroup = [];
+  int? isImportant;
+  int? taskType;
+  int? isFolow;
+  PrDate? startDate;
+  PrDate? dueDate;
+  PrDate? endDate;
+  PrCodeName? source;
+  int? days;
+  int? sortOrder;
+  int? sysStatus;
+  PrCodeName? createdBy;
+  PrDate? createDate;
+  var subtasks;
+  int? progress;
+  var color;
+  var noteDeadline;
+  int? weight;
+  int? isFinal;
+  int? isFinished;
+  int? isForward;
+  int? isThuHoi;
+  int? isView;
+  String? note;
+  String? deadlineTime;
+  String? strResult;
+  var listErr;
+  int? type;
+  int? isNew;
+  bool? editMode;
+
+  MyTaskModel({this.sysCode,this.code,this.name,this.description,this.parent,this.folow,this.sStartDate,this.sDueDate,this.sEndDate,this.attachments,this.forward,this.employeeGroup,this.isImportant,this.taskType,this.isFolow,this.days,this.sortOrder,this.sysStatus,this.subtasks,this.progress,this.color,this.noteDeadline,this.weight,this.isFinal,this.isFinished,this.isForward,this.isThuHoi,this.isView,this.note,this.deadlineTime,this.strResult,this.listErr,this.type,this.assign,this.createDate,this.createdBy,this.customer,this.dueDate,this.endDate,this.mainTask,this.project,this.source,this.startDate,this.taskStatus,this.isNew, this.editMode});
+
+  MyTaskModel.fromJson(Map<String, dynamic> json) {
+    sysCode = (json['sysCode'])??"";
+    code = (json['code'])??"";
+    name = (json['name'])??"";
+    description = (json['description'])??"";
+    parent = (json['parent'])??"";
+    folow = (json['folow'])??[];
+    sStartDate = (json['sStartDate'])??"";
+    sDueDate = (json['sDueDate'])??"";
+    sEndDate = (json['sEndDate'])??"";
+    attachments = (json['attachments'])??[];
+    forward = (json['forward'])??"";
+    employeeGroup = (json['employeeGroup'])??[];
+    isImportant = (json['isImportant'])??0;
+    taskType = (json['taskType'])??0;
+    isFolow = (json['isFolow'])??0;
+    days = (json['days'])??0;
+    sortOrder = (json['sortOrder'])??0;
+    sysStatus = (json['sysStatus'])??0;
+    subtasks = (json['subtasks'])??"";
+    progress = (json['progress'])??0;
+    color = (json['color'])??"";
+    noteDeadline = (json['noteDeadline'])??"";
+    weight = (json['weight'])??0;
+    isFinal = (json['isFinal'])??0;
+    isFinished = (json['isFinished'])??0;
+    isForward = (json['isForward'])??0;
+    isThuHoi = (json['isThuHoi'])??0;
+    isView = (json['isView'])??0;
+    note = (json['note'])??"";
+    deadlineTime = (json['deadlineTime'])??"";
+    strResult = (json['strResult'])??"";
+    listErr = (json['listErr'])??"";
+    type = (json['type'])??0;  
+    customer = PrCodeName.fromJson( json['customer']);
+    project = PrCodeName.fromJson( json['project']);
+    mainTask = PrCodeName.fromJson( json['mainTask']);
+    assign = PrCodeName.fromJson( json['assign']);
+    taskStatus = PrCodeName.fromJson( json['taskStatus']);
+    source = PrCodeName.fromJson( json['source']);
+    createdBy = PrCodeName.fromJson( json['createdBy']);
+    startDate = PrDate.fromJson(json['startDate']);
+    dueDate = PrDate.fromJson(json['dueDate']);
+    endDate = PrDate.fromJson(json['endDate']);
+    createDate = PrDate.fromJson(json['createDate']);
+    isNew = (json['isNew'])??0;
+    editMode = (json['editMode']) ?? false;
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['sysCode'] =(this.sysCode)??"";
+    data['code'] =(this.code)??"";
+    data['name'] =(this.name)??"";
+    data['description'] =(this.description)??"";
+    data['parent'] =(this.parent)??"";
+    data['folow'] =(this.folow)??[];
+    data['sStartDate'] =(this.sStartDate)??"";
+    data['sDueDate'] =(this.sDueDate)??"";
+    data['sEndDate'] =(this.sEndDate)??"";
+    data['attachments'] =(this.attachments)??[];
+    data['forward'] =(this.forward)??"";
+    data['employeeGroup'] =(this.employeeGroup)??[];
+    data['isImportant'] =(this.isImportant)??0;
+    data['taskType'] =(this.taskType)??0;
+    data['isFolow'] =(this.isFolow)??0;
+    data['days'] =(this.days)??0;
+    data['sortOrder'] =(this.sortOrder)??0;
+    data['sysStatus'] =(this.sysStatus)??0;
+    data['subtasks'] =(this.subtasks)??"";
+    data['progress'] =(this.progress)??0;
+    data['color'] =(this.color)??"";
+    data['noteDeadline'] =(this.noteDeadline)??"";
+    data['weight'] =(this.weight)??0;
+    data['isFinal'] =(this.isFinal)??0;
+    data['isFinished'] =(this.isFinished)??0;
+    data['isForward'] =(this.isForward)??0;
+    data['isThuHoi'] =(this.isThuHoi)??0;
+    data['isView'] =(this.isView)??0;
+    data['note'] =(this.note)??"";
+    data['deadlineTime'] =(this.deadlineTime)??"";
+    data['strResult'] =(this.strResult)??"";
+    data['listErr'] =(this.listErr)??"";
+    data['type'] =(this.type)??0;
+    data['customer'] =(this.customer)??PrCodeName();
+    data['project'] =(this.project)??PrCodeName();
+    data['mainTask'] =(this.mainTask)??PrCodeName();
+    data['assign'] =(this.assign)??PrCodeName();
+    data['taskStatus'] =(this.taskStatus)??PrCodeName();
+    data['source'] =(this.source)??PrCodeName();
+    data['createdBy'] =(this.createdBy)??PrCodeName();
+    data['startDate'] =(this.startDate)??PrDate();
+    data['dueDate'] =(this.dueDate)??PrDate();
+    data['endDate'] =(this.endDate)??PrDate();
+    data['createDate'] =(this.createDate)??PrDate();
+    data['isNew'] =(this.isNew) ?? 0;
+    data['editMode'] = (this.editMode) ?? false;
+    return data;
+  }
+
+  static List<MyTaskModel> fromJsonList(List? list) {
+    if (list == null) return [];
+    return list.map((item) => MyTaskModel.fromJson(item)).toList();
+  }
+  static List<Map<String, dynamic>> toJsonList(List<MyTaskModel>? list) {
+    if (list == null) return [];
+    return list.map((item) => item.toJson()).toList();
+  }
+}
